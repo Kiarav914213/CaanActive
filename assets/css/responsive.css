@@ -1,0 +1,339 @@
+@media (max-width:1199px) {
+    .ourserviceimg {
+        width: 100%;
+        padding-left: unset;
+    }
+}
+
+@media (max-width:991px) {
+    .navbarBtn {
+        display: none;
+    }
+
+    .navbarBtnphone {
+        display: block;
+        padding-top: 15px;
+    }
+
+    .navbarBtnphone .headerBtn {
+        max-width: max-content;
+    }
+
+    .offcanvas-header .btn-close {
+        font-size: 24px;
+    }
+
+    .offcanvas-title a img {
+        max-width: 30px;
+    }
+
+    .navbar-expand-lg .navbar-nav {
+        border-radius: 15px;
+    }
+
+    .navbar-expand-lg .offcanvas .offcanvas-body {
+        background: linear-gradient(269.77deg, #7BBF44 -1.28%, #3EA345 99.79%);
+    }
+
+    .offcanvas-header {
+        background-color: var(--brand-color);
+    }
+
+    .navbar-expand-lg .navbar-nav {
+        gap: 20px;
+        padding: 20px 10px;
+    }
+
+
+    .navbar-nav li a {
+        border-bottom: 1px solid #000;
+    }
+
+    .contentBanner .row .col-6 {
+        width: 100% !important;
+    }
+
+    .contentBanner .row {
+        bottom: 224px;
+    }
+
+    .Homebanner img {
+        height: 450px;
+    }
+
+    .Homebanner {
+        height: 450px;
+    }
+
+    .nav-item.dropdown {
+        gap: 10px;
+    }
+
+    .dropdown.arrow-top li a {
+        border: unset;
+    }
+
+    .dropdown.arrow-top {
+        max-height: 250px;
+        overflow-y: scroll;
+    }
+
+    .l-backg {
+        padding-top: 80px;
+    }
+
+    .green-promo-section .green-box,
+    .about2 .row {
+        text-align: right;
+    }
+
+    .futuresSection .container {
+        bottom: 0px;
+        margin-top: 40px;
+    }
+
+    .greenimg {
+        padding-left: 0;
+        justify-content: end;
+    }
+
+    .image-boxs,
+    .boxhiglight {
+        margin-bottom: 30px;
+    }
+
+    .contact-section {
+        padding: 20px;
+    }
+
+    .testimonialsSection,
+    .about2 {
+        padding: 40px 0;
+    }
+
+    .image-boxs,
+    .image-boxs img {
+        height: 400px;
+    }
+
+    .navbar-nav .nav-link {
+        width: 100%;
+        text-align: center !important;
+        border: 1px solid #fff;
+    }
+
+    .navbar-nav .active .nav-link {
+        background: #fff !important;
+    }
+
+    .navbar-nav .active .nav-link {
+        color: #3EA345 !important;
+    }
+
+    .navbar-nav li a {
+        color: #fff !important;
+    }
+}
+
+@media (max-width:776px) {
+    .contentBanner h1 {
+        font-size: 36px;
+    }
+
+    .contentBanner h3 {
+        font-family: var(--primary-font);
+        font-weight: 700;
+        font-size: 18px;
+        letter-spacing: 0.9px;
+        line-height: 128%;
+    }
+
+    .headline,
+    .sub-headline {
+        font-size: 28px;
+    }
+
+    .image-boxs,
+    .image-boxs img {
+        width: 100%;
+    }
+
+    .image-box {
+        height: 280px;
+        width: 350px;
+    }
+
+    .image-box1,
+    .image-boxs,
+    .image-boxs img {
+        height: 294px;
+        width: 375px;
+    }
+
+    .owl-theme .owl-dots .owl-dot span {
+        width: 50px !important;
+    }
+
+    .testimonial .owl-dots .owl-dot.active span,
+    .testimonial.owl-dots .owl-dot:hover span,
+    .testimonial .owl-dot span {
+        width: 80px !important;
+        height: 6px !important;
+    }
+
+    .form-container {
+        padding: 40px 50px;
+    }
+
+    .contact-form .input-group {
+        flex-direction: column;
+    }
+
+    .form-field input,
+    .form-field textarea {
+        text-align: right;
+    }
+
+    .green-promo-section .green-box {
+        padding: 20px 0px;
+        margin: 0px;
+    }
+
+    .green-promo-section {
+        margin: 20px 0 30px 0 !important;
+    }
+
+    .logo-f {
+        text-align: right;
+    }
+}
+
+@media (max-width:480px) {
+    .Homebanner {
+        height: 430px;
+    }
+
+    .social-icons a {
+        width: 30px;
+        height: 30px;
+    }
+
+    .headerBtn a {
+        font-size: 12px;
+    }
+
+    .headline,
+    .sub-headline {
+        font-size: 22px;
+    }
+
+    .footer-bottom {
+        justify-content: end;
+        gap: 10px;
+    }
+
+    .iconbanner img {
+        width: 47px;
+    }
+
+    .custom-footer {
+        padding-top: 30px;
+    }
+
+    .headerBtn {
+        padding-top: 8px;
+    }
+
+    .call-icon {
+        padding: 5px;
+        border-radius: 4px;
+    }
+
+    .Homebanner img {
+        height: 450px;
+    }
+
+    .logoheader {
+        width: 40px;
+    }
+
+    .about2 {
+        padding: 30px 0;
+    }
+
+    .listtext ul {
+        padding: 0px 0;
+    }
+
+    .contact-form .input-group {
+        padding-top: 10px;
+    }
+
+    .image-box {
+        margin-bottom: unset !important;
+    }
+
+    .futuresSection .container,
+    .license-section {
+        margin-top: 30px !important;
+    }
+
+    .license-section {
+        margin-bottom: 30px !important;
+    }
+
+    .image-box,
+    .image-boxs,
+    .image-boxs img {
+        height: 280px;
+        width: 280px;
+    }
+
+    .testimonialsSection {
+        padding: 0;
+    }
+
+    .testimonial {
+        padding-top: 21px;
+    }
+
+    .image-box1 {
+        height: 270px;
+        width: 302px;
+    }
+
+    .futuresSection .container {
+        padding: 20px 10px;
+    }
+
+    .headingemp {
+        padding-bottom: 20px;
+    }
+
+    .navbar-toggler i {
+        font-size: 28px;
+    }
+
+    .offcanvas-header .btn-close {
+        font-size: 18px;
+    }
+
+    .owl-theme .owl-dots .owl-dot span {
+        width: 25px !important;
+    }
+
+    .testimonial .owl-dots .owl-dot.active span,
+    .testimonial.owl-dots .owl-dot:hover span,
+    .testimonial .owl-dot span {
+        width: 40px !important;
+        height: 5px !important;
+    }
+
+    .owl-theme .owl-nav.disabled+.owl-dots {
+        margin-top: unset !important;
+    }
+
+    .form-container {
+        padding: 20px 10px;
+    }
+}
