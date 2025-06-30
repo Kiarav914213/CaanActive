@@ -107,7 +107,7 @@
     }
 
     .testimonialsSection,
-    .about2 {
+    .about2,.aboutussection {
         padding: 40px 0;
     }
 
@@ -133,11 +133,47 @@
     .navbar-nav li a {
         color: #fff !important;
     }
+
+    .aboutBanner {
+        height: 300px;
+    }
+
+    .from-contact {
+        margin: 30px 0 38px;
+    }
+
+    .cta-two__img-and-content {
+        gap: 20px;
+    }
+
+    .cta-two__inner {
+        padding: 30px 21px 30px;
+        padding-right: 32px;
+        z-index: 1;
+    }
+    .mapsection{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .cta-two{
+        padding-top: 30px;
+    }
+    .from-contact .description{
+    padding-bottom: 30px;
+}
+.team-section{
+        padding: 40px 0  0!important;
+    }
 }
 
 @media (max-width:776px) {
     .contentBanner h1 {
         font-size: 36px;
+    }
+
+    .cta-two__img img {
+        height: 250px;
+        object-fit: cover;
     }
 
     .contentBanner h3 {
@@ -146,6 +182,12 @@
         font-size: 18px;
         letter-spacing: 0.9px;
         line-height: 128%;
+    }
+
+    .cta-two__inner {
+        padding: 30px 21px 30px;
+        padding-right: 32px;
+        z-index: 1;
     }
 
     .headline,
@@ -206,6 +248,9 @@
     .logo-f {
         text-align: right;
     }
+    .from-contact .description{
+    padding-bottom: 20px;
+}
 }
 
 @media (max-width:480px) {
@@ -221,24 +266,47 @@
     .headerBtn a {
         font-size: 12px;
     }
+ .from-contact {
+        margin: 20px 0 18px;
+    }
+        .from-contact .check-left {
+        margin-bottom: 30px;
+    }
+    .aboutBanner {
+        height: 250px;
+    }
+
+
+    .bannerContent .titletext {
+        font-size: 42px;
+        font-weight: 700;
+    }
 
     .headline,
     .sub-headline {
         font-size: 22px;
     }
-
+.from-contact .description{
+    padding-bottom: 10px;
+}
     .footer-bottom {
         justify-content: end;
         gap: 10px;
     }
-
+ .l-backg {
+        padding-top: 110px;
+    }
     .iconbanner img {
         width: 47px;
+    }.team-section{
+        padding: 30px 0  0!important;
     }
 
     .custom-footer {
         padding-top: 30px;
     }
+
+  
 
     .headerBtn {
         padding-top: 8px;
@@ -257,7 +325,7 @@
         width: 40px;
     }
 
-    .about2 {
+    .about2 ,.aboutussection{
         padding: 30px 0;
     }
 

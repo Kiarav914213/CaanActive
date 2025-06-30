@@ -1402,3 +1402,372 @@
 .social-icons a:hover {
     transform: scale(1.1);
 }
+
+/* ========================= About Us Banner Section =============================*/
+.aboutBanner {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--white-color);
+    overflow: hidden;
+}
+
+/* Background Image */
+.aboutbannerImg {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+
+.aboutbannerImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.aboutbannerImg::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+.bannerContent {
+    position: relative;
+    z-index: 2;
+    padding-top: 30px;
+    text-align: left;
+}
+
+.bannerContent .titletext {
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-family: var(--primary-font);
+    color: var(--white-color);
+    text-align: center;
+}
+
+.breadcrumbs-custom-path {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+.breadcrumbs-custom-path li {
+    display: inline-block;
+    color: var(--brand-color);
+    font-size: 18px;
+    font-family: var(--secondary-font);
+    font-weight: 800;
+}
+
+.breadcrumbs-custom-path li a {
+    color: var(--white-color);
+    text-decoration: none;
+    transition: color 0.4s ease-in-out;
+    font-weight: 600;
+    font-family: var(--secondary-font);
+    font-size: 18px;
+}
+
+.breadcrumbs-custom-path li a:hover {
+    /* text-decoration: underline; */
+    color: var(--brand2);
+}
+
+
+/*--------------------------------------------------------------
+# CTA Two
+--------------------------------------------------------------*/
+.cta-two {
+    position: relative;
+    display: block;
+    z-index: 2;
+    padding: 60px 0;
+    background-color: var(--black2-color);
+}
+
+.cta-two__inner {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    padding: 30px 71px 30px;
+    padding-right: 109px;
+    z-index: 1;
+}
+
+.cta-two__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: -1;
+}
+
+
+.cta-two__bg::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .90;
+    background: linear-gradient(269.77deg, #7BBF44 -1.28%, #3EA345 99.79%);
+    border-radius: 20px;
+    z-index: -1;
+}
+
+.cta-two__img-and-content {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 145px;
+}
+
+.cta-two__img {
+    position: relative;
+    display: block;
+    max-width: 324px;
+    width: 100%;
+}
+
+.cta-two__img img {
+    width: 100%;
+    border-radius: 5%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.cta-two__content {
+    position: relative;
+    display: block;
+    text-align: right;
+}
+
+.ctabtn .cta-two__title {
+    font-size: 49px;
+    font-weight: 700;
+    line-height: 59px;
+    letter-spacing: -1.2px;
+    color: var(--white-color);
+    font-family: var(--primary-font);
+}
+
+.ctabtn {
+    text-align: right;
+    justify-content: end;
+    display: flex;
+}
+
+.cta-two__text {
+    color: var(--white-color);
+    margin-top: 9px;
+    margin-bottom: 22px;
+    font-family: var(--secondary-font);
+}
+
+.cta-two__btn-box {
+    position: relative;
+    display: block;
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+}
+
+.callusbtn a {
+    background-color: unset !important;
+    border: 2px solid var(--brand-color);
+    padding: 8px 17px 6px 17px !important;
+}
+
+.callusbtn a:hover {
+    background-color: var(--brand-color) !important;
+}
+
+
+
+
+.callusbtn a {
+    background-color: unset !important;
+    border: 2px solid var(--brand-color);
+    padding: 8px 17px 6px 17px !important;
+}
+
+.callusbtn a:hover {
+    background-color: var(--brand-color) !important;
+}
+
+.from-contact {
+    margin: 80px 0 98px;
+}
+
+
+@media (max-width: 900px) {
+    .from-contact .check-left {
+        margin-bottom: 60px;
+    }
+}
+
+.from-contact .check-left .form-group {
+    margin-bottom: 24px;
+}
+
+.from-contact .check-left .form-group textarea,
+.from-contact .check-left .form-group input {
+    border-color: #ddd;
+    border-bottom: 5px solid #C4EDA3;
+
+}
+
+.from-contact .check-left .form-group input {
+    height: 50px;
+}
+
+.from-contact .check-left .form-group label {
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+
+.from-contact .check-left .btn-web a {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.check-left {}
+
+.wrap-map {
+    border: 2px solid #7BBF44;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 10px 10px 5px 10px;
+}
+
+.wrap-map iframe {
+    border-radius: 12px;
+}
+
+.conatctbtn {
+    max-width: max-content;
+}
+
+.from-contact .description {
+    padding-bottom: 50px;
+}
+
+.aboutussection {
+    box-shadow: 0px 4px 0px 0px #33A10040;
+    background: #F8FFEC;
+    margin: 0px 3%;
+    border-radius: 12px;
+    background-image: url("../images/Group\ 1000001021.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 60px 0;
+    background-size: contain;
+}
+
+/* ================== team section ======================== */
+.team-section {
+    background-image: url(../images/Group\ 1000001021.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.team-section::before {
+    content: '';
+    position: absolute;
+    /* left: 0; */
+    /* inset: 0; */
+    background: url(../images/logo/logo-removebg-preview.png) center no-repeat;
+    opacity: 0.2;
+    z-index: -1;
+    height: auto;
+    width:100%;
+    object-fit: contain;
+    top: 0;
+}
+
+.team-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: transform 0.4s ease, box-shadow 0.3s ease;
+}
+
+.team-card {
+    background: #F7FFEB;
+    border-radius: 15px;
+    transition: background 0.5s ease-in-out, transform 0.4s ease, color 0.4s ease;
+    color: #000;
+    /* default text color */
+}
+
+.team-card:hover {
+    background: linear-gradient(269.77deg, #7BBF44 -1.28%, #3EA345 99.79%);
+    transform: translateY(-8px);
+    color: var(--white-color);
+}
+
+.team-card * {
+    transition: color 0.4s ease;
+}
+
+.team-section .headliness {
+    padding-bottom: 60px;
+}
+
+.team-card:hover * {
+    color: var(--white-color);
+}
+
+
+.team-card:hover h2,
+.team-card:hover p {
+    color: var(--white-color);
+}
+
+.team-card:hover .team-img {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 255, 128, 0.3);
+}
+
+.aboutnametxt {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 155%;
+    letter-spacing: 0.3px;
+    text-align: center;
+    color: var(--black-color);
+    padding-top: 10px;
+}
