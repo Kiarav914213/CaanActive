@@ -66,17 +66,11 @@ $(document).ready(function () {
 
 
 document.addEventListener("DOMContentLoaded", function () {
-    const navItems = document.querySelectorAll(".navbar-nav .nav-item");
+  const navLinks = document.querySelectorAll(".navbar-nav .nav-link");
 
-    navItems.forEach(item => {
-        item.addEventListener("click", function (e) {
-            e.preventDefault(); // prevent page reload for demo
-
-            // Remove 'active' from all nav items
-            navItems.forEach(i => i.classList.remove("active"));
-
-            // Add 'active' to clicked item
-            this.classList.add("active");
-        });
-    });
+  navLinks.forEach(link => {
+    if (link.href === window.location.href) {
+      link.parentElement.classList.add("active");
+    }
+  });
 });

@@ -199,7 +199,10 @@
     --brand-gradient: linear-gradient(269.77deg, #7BBF44 -1.28%, #3EA345 99.79%);
     --brand-green: #3EA345;
 }
-
+.navbar-nav .nav-item a{
+    z-index: 999;
+    position: relative;
+}
 
 .navbar-nav .nav-link {
     color: #1f1f1f;
