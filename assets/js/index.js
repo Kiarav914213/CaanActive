@@ -67,10 +67,25 @@ $(document).ready(function () {
 
 document.addEventListener("DOMContentLoaded", function () {
   const navLinks = document.querySelectorAll(".navbar-nav .nav-link");
+  const currentPath = window.location.pathname.replace(/\/$/, "").toLowerCase();
 
   navLinks.forEach(link => {
-    if (link.href === window.location.href) {
-      link.parentElement.classList.add("active");
+    // 💡 Skip if href is "#" or empty
+    if (!link.href || link.getAttribute("href") === "#") return;
+
+    // Clean previous active
+    link.classList.remove("active");
+    if (link.parentElement) {
+      link.parentElement.classList.remove("active");
+    }
+
+    const linkPath = new URL(link.href, window.location.origin).pathname.replace(/\/$/, "").toLowerCase();
+
+    if (linkPath === currentPath) {
+      link.classList.add("active");
+      if (link.parentElement) {
+        link.parentElement.classList.add("active");
+      }
     }
   });
 });
