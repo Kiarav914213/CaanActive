@@ -910,8 +910,12 @@
     width: 30%;
 }
 
-.form-control {
+/* .form-control {
     width: 60%;
+} */
+
+.fa-arrow-circle-left {
+    transform: rotate(180deg);
 }
 
 .form-control:focus {
@@ -1720,10 +1724,28 @@
     height: 50px;
 }
 
+.control-label3 {
+    /* justify-content: end !important; */
+}
+
 .from-contact .check-left .form-group label {
     font-size: 16px;
     font-weight: 600;
     padding-bottom: 5px;
+    display: flex;
+    justify-content: end;
+}
+
+.cnt-btn {
+    text-align: right;
+    display: flex;
+    justify-content: end !important;
+    align-items: end;
+    text-align: right;
+}
+
+#contactform .form-control {
+    width: 100% !important;
 }
 
 .from-contact .check-left .btn-web a {
