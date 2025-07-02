@@ -30,17 +30,20 @@
     transform: translate(-50%, 10%);
     box-shadow: rgba(0, 128, 0, 0.24) 0px 3px 8px;
     background: #fff;
-    padding: 0px;
+    padding: 0;
     z-index: 99;
-    width: 233px;
+    width: 250px;
     opacity: 0;
     visibility: hidden;
     transition: all 0.5s linear;
     list-style: none;
     border-radius: 12px;
     border: 1px solid #2e7d32;
+    padding:5px 0;
 }
-
+.dropdown .nav-link{
+    width: 100%;
+}
 .navbar-nav>li:nth-child(3)>.dropdown.arrow-top {
     top: 109%;
 }
