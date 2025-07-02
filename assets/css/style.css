@@ -28,7 +28,7 @@
     top: 100%;
     left: 50%;
     transform: translate(-50%, 10%);
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-shadow: rgba(0, 128, 0, 0.24) 0px 3px 8px;
     background: #fff;
     padding: 0px;
     z-index: 99;
@@ -38,6 +38,7 @@
     transition: all 0.5s linear;
     list-style: none;
     border-radius: 12px;
+    border: 1px solid #2e7d32;
 }
 
 .navbar-nav>li:nth-child(3)>.dropdown.arrow-top {
@@ -51,7 +52,7 @@
 
 .main-header .dropdown.arrow-top li {
     border-bottom: 1px solid #000;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    box-shadow: rgba(0, 100, 0, 0.4) 0px 2px 8px 0px;
     margin: 0 !important;
     padding: 3px 3px;
 }
@@ -767,7 +768,8 @@
     border-radius: 50px 0px 50px 0px !important;
     width: 450px !important;
 }
-.l-service{
+
+.l-service {
     flex-direction: column-reverse;
 }
 
@@ -779,12 +781,14 @@
     padding: unset !important;
 }
 
-.l-backg23{
+.l-backg23 {
     text-align: left !important;
 }
-.greenimg3{
+
+.greenimg3 {
     justify-content: end;
 }
+
 .image-box1-s {
     padding: 20px;
 }
@@ -903,6 +907,15 @@
     box-shadow: 1px 1px 10px 0px #77777780;
     position: relative;
     left: 10px;
+    width: 30%;
+}
+
+.form-control {
+    width: 60%;
+}
+
+.form-control:focus {
+    box-shadow: unset !important;
 }
 
 .image-boxs,

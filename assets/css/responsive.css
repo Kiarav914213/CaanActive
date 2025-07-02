@@ -321,6 +321,14 @@
         margin: 20px 0 18px;
     }
 
+    .btn-submit {
+        width: 50%;
+    }
+
+    .form-control {
+        width: 100%;
+    }
+
     .from-contact .check-left {
         margin-bottom: 30px;
     }
@@ -368,7 +376,7 @@
     }
 
     #license-section3 {
-        margin-top: 0px  !important;
+        margin-top: 0px !important;
     }
 
     .headline,
