@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap');
 
 * {
     box-sizing: border-box;
@@ -12,9 +11,11 @@
     --brand-gradient: linear-gradient(269.77deg, #7BBF44 -1.28%, #3EA345 99.79%);
     --arrow-color: rgba(184, 212, 50, 1);
     --white-color: #FFFFFF;
-    --primary-font: "Roboto", sans-serif;
-    --secondary-font: "Inter", sans-serif;
-    --thirt-font: "Manrope", sans-serif;
+
+    --primary-font: "Assistant", sans-serif;
+    /* --primary-font: "Roboto", sans-serif; */
+    --secondary-font: "Assistant", sans-serif;
+    --thirt-font: "Assistant", sans-serif;
 
 
     --black-color: #000000;
@@ -584,9 +585,11 @@
     color: var(--white-color);
     margin: 0;
 }
-.banerbotm{
+
+.banerbotm {
     padding-bottom: 10px;
 }
+
 .contentBanner p,
 .ourserviceContent p {
     font-family: var(--primary-font);
@@ -611,7 +614,7 @@
     direction: rtl;
     justify-content: center;
     color: white;
-    font-family: sans-serif;
+    font-family: "Assistant", sans-serif;
 }
 
 .call-icon {
@@ -858,7 +861,7 @@
     margin: 20px 0;
     font-family: var(--primary-font);
     font-weight: 400;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 155%;
     letter-spacing: 0.3px;
     text-align: right;
@@ -1104,7 +1107,7 @@
     padding: 20px 30px 60px 20px;
     border-radius: 10px;
     position: relative;
-    font-family: 'Arial', sans-serif;
+    font-family: "Assistant", sans-serif;
     background: #FFFFFF;
 
     border-right: 5px solid #C9EEAB !important;
@@ -1172,7 +1175,7 @@
 .testimonial-text {
     margin: 0;
     color: #3C4959;
-    font-family: Roboto;
+    font-family: "Assistant", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 155%;
@@ -1349,7 +1352,7 @@
     background-color: #F3FFE0;
     padding-top: 60px;
     padding-bottom: 20px;
-    font-family: 'Arial', sans-serif;
+    font-family: "Assistant", sans-serif;
     color: #333;
     margin: 0px 2%;
     border-radius: 10px;
@@ -1393,7 +1396,7 @@
 .footer-column ul li a {
     text-decoration: none;
     color: #6D6D6D;
-    font-family: Manrope;
+    font-family: "Assistant", sans-serif;
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
@@ -1438,7 +1441,7 @@
 .copyright {
     font-family: var(--thirt-font);
     font-weight: 600;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 24px;
     text-align: right;
     color: #6D6D6D;
@@ -1866,7 +1869,7 @@
 }
 
 .aboutnametxt {
-    font-family: Roboto;
+    font-family:"Assistant", sans-serif;
     font-weight: 700;
     font-size: 25px;
     line-height: 155%;
@@ -1921,7 +1924,7 @@
 }
 
 .service_wrapper .service_inner_card .titles h2 {
-    font-size: 34px;
+    font-size: 28px;
     letter-spacing: 2px;
     line-height: 39px;
     color: #fff;
@@ -2061,7 +2064,7 @@
     display: flex;
     align-items: center;
     gap: 20px;
-    font-family: Arial, sans-serif;
+    font-family: "Assistant", sans-serif;
     color: #fff;
     font-size: 14px;
     justify-content: space-between;
