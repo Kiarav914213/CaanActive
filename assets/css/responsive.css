@@ -119,12 +119,30 @@
 
     .navbar-nav .nav-link {
         width: 100%;
-        text-align: center !important;
         border: 1px solid #fff;
+        display: flex;
+        justify-content: end;
     }
+
+    .navbarBtnphone {
+        display: flex;
+        justify-content: end;
+    }
+
+    .fa-chevron-down {
+        color: #fff;
+    }
+
 
     .navbar-nav .active .nav-link {
         background: #fff !important;
+    }
+
+    .btn-close {
+        
+        opacity: 1 !important;
+        border: none !important;
+        font-size: 1.2rem !important;
     }
 
     .navbar-nav .active .nav-link {
