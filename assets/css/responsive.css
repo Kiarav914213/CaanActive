@@ -139,10 +139,14 @@
     }
 
     .btn-close {
-        
+
         opacity: 1 !important;
         border: none !important;
         font-size: 1.2rem !important;
+    }
+
+    .main-header .dropdown.arrow-top {
+        background: linear-gradient(269.77deg, #7BBF44 -1.28%, #3EA345 99.79%);
     }
 
     .navbar-nav .active .nav-link {
